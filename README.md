@@ -30,7 +30,9 @@ When cleaning the data there were a lot of missing values, 64% of the data was m
 # Results
 The VAR Time Series Model was the most insightful in predicting the desired outcome. Looking at Table 1, it is seen that the model predicted well and was consistent with the original year, 2017-2022. For example, the first column, Abercrombie & Fitch, in 2017-2022 had consistently low percentages throughout the years. This explains the model predictions, it is unlikely that this brand will have a spick in transparency in the next 6 years. But if we take a look at the second column, Mark & Spencer, the original data shows that the percentages were low but stayed around 40-50. This is why the model predicted the percentage in the 30-40s. 
 
-Table 1: VAR Time Series Model Prediction
+Table 1: VAR Time Series Model Prediction 
+https://github.com/FaridaA-desgin/Sustainability_in_Fashion/blob/0e2f17721c7ac829b8867fc340813c8d9ed3e945/Table%201.jpeg
+
 Table 2: Time Series Performance Metrics 
 
 To properly evaluate the model's predictions we will look at a few evaluation metrics. The Mean Absolute Percentage Error (MAPE) is popular for assessing forecast accuracy. MAPE is defined as the total of the individual absolute mistakes divided by the demand (per period). The percentage of mistakes is averaged. The Mean Absolute Error (MAE) is the mean of the absolute error. The Root Mean Squared Error (RMSE) is calculated by taking the square root of the average squared error. Table 2 is a short look at the forecast models performance.
