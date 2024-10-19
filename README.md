@@ -30,30 +30,39 @@ When cleaning the data there were a lot of missing values, 64% of the data was m
 # Results
 The VAR Time Series Model was the most insightful in predicting the desired outcome. Looking at Table 1, it is seen that the model predicted well and was consistent with the original year, 2017-2022. For example, the first column, Abercrombie & Fitch, in 2017-2022 had consistently low percentages throughout the years. This explains the model predictions, it is unlikely that this brand will have a spick in transparency in the next 6 years. But if we take a look at the second column, Mark & Spencer, the original data shows that the percentages were low but stayed around 40-50. This is why the model predicted the percentage in the 30-40s. 
 
-Table 1: VAR Time Series Model Prediction 
-https://github.com/FaridaA-desgin/Sustainability_in_Fashion/blob/0e2f17721c7ac829b8867fc340813c8d9ed3e945/Table%201.jpeg
+Table 1: VAR Time Series Model Prediction ![Table 1](https://github.com/user-attachments/assets/5b2ed33c-c830-4ec4-bd41-8e01d8ce5b1f)
 
-Table 2: Time Series Performance Metrics 
+
+
+Table 2: Time Series Performance Metrics ![Table 2](https://github.com/user-attachments/assets/7ad41d95-2830-4fb7-b19c-c037370de597)
+
 
 To properly evaluate the model's predictions we will look at a few evaluation metrics. The Mean Absolute Percentage Error (MAPE) is popular for assessing forecast accuracy. MAPE is defined as the total of the individual absolute mistakes divided by the demand (per period). The percentage of mistakes is averaged. The Mean Absolute Error (MAE) is the mean of the absolute error. The Root Mean Squared Error (RMSE) is calculated by taking the square root of the average squared error. Table 2 is a short look at the forecast models performance.
      The top 3 brands with the lowest values of the MAE are Mango, Matalan, and Mexx. For Mango it indicates that, on average, the predicted values differ from the actual values by 0.001, .01 for Matalan and .02 for Mexx. Which means that the values the time series model predicted are around the same percentage. This can be seen in Figure 1 and Figure 2 is the RMSE. So for both metrics for the purpose of this study a preferred larger value would have been more ideal to show how over time the predictions can vary based on what information each brand decides to make public. Even though these brands have the lowest metrics these won’t be the top sustainably brands forecasted. 
 
-Figure 1: Top 3 Brands with the Lowest MAE
-Figure 2: Top 3 Brands with the Lowest RMSE
+Figure 1: Top 3 Brands with the Lowest MAE![Figure 1](https://github.com/user-attachments/assets/c4e316d2-b4e7-4264-b41b-57a99b0e14c5)
+
+Figure 2: Top 3 Brands with the Lowest RMSE![Figure 2](https://github.com/user-attachments/assets/c09be4b4-6a4d-46e3-9dfd-11fa789b346c)
+
 
 
 To get a better understanding and visual representation of how the future predictions look, we will look at the top brands with the highest percentage. It is important to note that no brand has a percentage of 100% because it is impossible to be fully sustainable, there will always be waste. Looking at Figure 3 and 4 we can see the top 3 brands with the highest percentage are Walmart, Jordan, and GUESS. We can see that 2020 is the year that is the highest for all three brands. In 2020 is the time that COVID-19 started and many stores were closed, and production and distribution of many items from different industries were stopped. The conclusion can be made that brands were aware of how COVID-19 has helped reduce their environmental impact unwillingly. This explains that the brands were more willing to report and make information public in 2020 because they weren’t producing as much. The brand that seems to be keeping a percentage over 50% that the model forecast is GUESS. Looking at Figure 5-7 we can see the difference more clearly. GUESS was the only brand out of the three that did not decrease drastically after 2020. 
 It is important to mention the linear regression and random forest models in their significance. For the purpose of this study the models weren’t used to predict anything just to see how the model will do with the forecasted data. The models were both able to accurately predict the years of each percentage of the original and time series model. For this study the models weren’t significant enough to add or show any change to the time series model. 
 
-Figure 3:Top Brand Percentages Over Tim
+Figure 3:Top Brand Percentages Over Tim![Figure 3](https://github.com/user-attachments/assets/22ffa9f1-7311-4baa-9793-ef7e012b6580)
 
-Figure 4: Top Brand Percentages Over Time 
 
-Figure 5: Jordan Forecast 
+Figure 4: Top Brand Percentages Over Time ![Figure 4](https://github.com/user-attachments/assets/1ae40aac-35b4-4d8b-81d7-5ee5b201f295)
+
+
+Figure 5: Jordan Forecast ![Figure 5](https://github.com/user-attachments/assets/2becc0bf-503a-493c-8d00-837e5e3f0d9a)
+
 
 Figure 6: Walmart Forecast 
+![Figure 6](https://github.com/user-attachments/assets/57e51411-16b9-456e-980e-1d4de78d3008)
 
-Figure 7: GUESS Forecast 
+Figure 7: GUESS Forecast ![Figure 7](https://github.com/user-attachments/assets/1d431502-89f0-449b-8ce8-d00859c76425)
+
 
 
 # Conclusions
@@ -61,10 +70,15 @@ The results of the VAR time series model shows that it is possible to create a m
 
 # References
 Fletcher, Kate. "Durability, fashion, sustainability: The processes and practices of use." Fashion practice 4.2 (2012): 221-238.
+
 Hur, Eunsuk, and Tom Cassidy. "Perceptions and attitudes towards sustainable fashion design: challenges and opportunities for implementing sustainability in fashion." International Journal of Fashion Design, Technology and Education (2019).
+
 Joy, Annamma, et al. "Fast fashion, sustainability, and the ethical appeal of luxury brands." Fashion theory 16.3 (2012): 273-295.
+
 Pervez, Md Nahid, et al. "Sustainable fashion: Design of the experiment assisted machine learning for the environmental-friendly resin finishing of cotton fabric." Heliyon (2023): e12883.
+
 Nilashi, M., Rupani, P. F., Rupani, M. M., Kamyab, H., Shao, W., Ahmadi, H., ... & Aljojo, N. (2019). Measuring sustainability through ecological sustainability and human sustainability: A machine learning approach. Journal of Cleaner Production, 240, 118162.
+
 Wang, Z., Tao, X., Zeng, X., Xing, Y., Xu, Z., & Bruniaux, P. (2023). Design of Customized Garments Towards Sustainable Fashion Using 3D Digital Simulation and Machine Learning-Supported Human–Product Interactions. International Journal of Computational Intelligence Systems, 16(1), 16.
 
 
